@@ -1,7 +1,7 @@
 // controllers/chatController.js
 const fs = require("fs");
 const path = require("path");
-const { GoogleGenAI } = require("@google/genai");
+const { GoogleGenAI } = require("@google/genai"); // Using the new client library
 require("dotenv").config();
 
 const ai = new GoogleGenAI({
@@ -78,32 +78,14 @@ ${poem}
         temperature: 0.7,
         maxOutputTokens: 500,
       },
-      // Consider adding safetySettings here if you want to relax or tighten them
-      // safetySettings: [
-      //   {
-      //     category: 'HARM_CATEGORY_HARASSMENT',
-      //     threshold: 'BLOCK_NONE',
-      //   },
-      //   // ... other categories
-      // ],
     });
 
-    // --- NEW DEBUGGING LOGS ---
+    // --- CRITICAL FIX: Access candidates and promptFeedback directly from 'result' ---
+    // Removed '.response' from the path
     console.log("🔍 Full result object from Gemini API:", JSON.stringify(result, null, 2));
-    console.log("🔍 result.response object:", JSON.stringify(result.response, null, 2));
 
-    // --- CRITICAL FIX: Check if result.response exists before accessing its properties ---
-    if (!result.response) {
-      console.error("❌ AI error: 'result.response' is undefined or null.");
-      return res.status(500).json({
-        error: "AI response was empty or malformed at the top level.",
-        details: "result.response is undefined or null.",
-      });
-    }
-
-    // Check for safety feedback before accessing candidates
-    if (result.response.promptFeedback && result.response.promptFeedback.blockReason) {
-      const blockReason = result.response.promptFeedback.blockReason;
+    if (result.promptFeedback && result.promptFeedback.blockReason) {
+      const blockReason = result.promptFeedback.blockReason;
       console.warn(`⚠️ Gemini API blocked response due to: ${blockReason}`);
       return res.status(400).json({
         error: "AI response blocked by safety filters.",
@@ -111,7 +93,7 @@ ${poem}
       });
     }
 
-    const responseText = result.response.candidates?.[0]?.content?.parts?.[0]?.text;
+    const responseText = result.candidates?.[0]?.content?.parts?.[0]?.text; // Removed '.response'
 
     if (responseText) {
       res.json({ reply: responseText });
