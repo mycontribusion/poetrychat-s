@@ -173,7 +173,7 @@ a guide in life.
 
 
 -----
-TITLE: Trust
+TITLE: The Ultimate Trust
 
 All agreed
 That the patient won't make it
@@ -187,6 +187,8 @@ Prophet Muhammad
 
 ----
 TITLE: Role Model
+
+
 Who should I be today?
 If only I could be like Muhammad
 Peace and blessing of Allah be upon him.
@@ -337,7 +339,7 @@ And treat you the same as well
 
 
 ----
-TITLE: To Believers
+TITLE: The Row
 
 
 Come to success!
@@ -425,6 +427,7 @@ Image prompt: a kid staring at her pet
 
 
 ----
+TITLE: Covid19
 
 
 Diseases do move round,
@@ -437,6 +440,7 @@ Written during the Covid19 pandemic.
 
 
 ----
+TITLE: Ranking Competition
 
 
 Humans seek for power-
@@ -459,6 +463,7 @@ From their main purpose?
 
 
 ----
+TITLE:  What's There
 
 
 What's below luxurious life
@@ -470,9 +475,9 @@ Through burying its fellows?
 
 
 ----
+TITLE: Where Zoo Is Better
 
 
-Where Zoo Is Better
 A Politician Comes for Campaign
 The hillish protrusion,
 Resembling a four year old pregnancy,
@@ -495,6 +500,7 @@ Enough, to gain their attention.
 
 
 ----
+TITLE: The Whites
 
 
 Like Lions, they bite
@@ -512,9 +518,9 @@ colonial masters?
 
 
 ----
+TITLE: Summer Ends
 
 
-Summer
 Didn’t you once said you came to stay?
 Why does it seem you are on your way?
 How long has it been since you made that claim?
@@ -526,10 +532,9 @@ there will be an end to everything.
 
 
 ----
+TITLE: Her Skull Is Without A Brain
 
 
-The Corrupt Official’s Home
-Her Skull Is Without A Brain
 To rush food into the mouth
 But refuse to swallow.
 To use a helmet on the head
@@ -542,6 +547,7 @@ If she had no head?
 
 
 ----
+TITLE: The House
 
 
 How many starved
@@ -559,6 +565,7 @@ Of the thing that lives here?
 
 
 ----
+TITLE: The North
 
 
 Empty storerooms
@@ -567,9 +574,9 @@ Northern Nigeria
 
 
 ----
+TITLE: The Soldiers
 
 
-The Soldiers
 They are our brothers and sisters,
 Who gave up their freedom
 So that ours can grow.
@@ -590,6 +597,7 @@ Remains hidden from us.
 
 
 ----
+TITLE: How Certain?
 
 
 Like a man,
@@ -601,6 +609,7 @@ He firmly believes, judgment day will come.
 
 
 ----
+TITLE: Sign of Strength
 
 
 Cloth has become heavy
@@ -609,13 +618,13 @@ Weaklings have turned to minis
 Slips and things same as none.
 
 
-Cloth here is meant to mean the Islamic way of dressing.
+[Note: Cloth here is meant to mean the Islamic way of dressing.]
 
 
 ----
+TITLE: Life in the North
 
 
-The Nearest Part Of Nigeria
 It's summer in the north,
 Yet its land is still muddy
 From the tears of grief.
@@ -631,6 +640,7 @@ Indeed You are the Oft-Forgiving.
 
 
 ----
+TITLE: Conditional
 
 
 Happiness will continue to retreat,
@@ -641,16 +651,18 @@ The more ugly roots get pulled out from within the soil.
 
 
 ----
+TITLE: Immorality
 
 
 A flood from the west
 How many will survive?
 
-flood of immorality for the western world, how many will escape
-with their morality?
+[Note: flood of immorality from the western world, how many will escape
+with their morality?]
 
 
 ----
+TITLE: A Savage Specie 
 
 
 The green North
@@ -672,6 +684,7 @@ Than staying at home.
 
 
 ----
+TITLE: Alternative To Money
 
 
 With no notes
@@ -680,10 +693,11 @@ The pages are there
 To take you anywhere
 
 
-notes:money
+[Notes: money]
 
 
 ----
+TITLE: The Voice
 
 
 This, is the voice of poetry
@@ -694,6 +708,7 @@ As a poet.
 
 
 ----
+TITLE: Laziness
 
 
 I'm an eagle trapped within walls
@@ -703,6 +718,7 @@ I am yet to flap my wings.
 
 
 ----
+TITLE: Music
 
 
 When met by the beats from music,
@@ -716,9 +732,9 @@ For only pain centers seem to be responding
 
 
 ----
+TITLE: Ko'ed
 
 
-KO'ed
 Suddenly, I felt a head dropped on my shoulder
 As if he has been KO'ed.
 But to his right and to his left
@@ -729,6 +745,7 @@ By sleep.
 
 
 ----
+TITLE: The Ovulation Scene
 
 
 Beaming wildly she stood
@@ -736,13 +753,13 @@ Before her defeated pears.
 She was ovulated afterwards.
 
 
-From among the scenes before birth.
+[Note: From among the scenes before birth.]
 
 
 ----
+TITLE: Childhood Memory
 
 
-Childhood Memory
 A beardless chin
 Reached the wooden door.
 With his half its height,
@@ -757,6 +774,7 @@ Admiring his unwavering will.
 
 
 ----
+TITLE: To Friends
 
 
 For how long do you
@@ -770,6 +788,7 @@ Consumed by hell.
 
 
 ----
+TITLE: My Goat
 
 
 Why would I need someone else
@@ -785,6 +804,7 @@ And to me she too is my goat.
 
 
 ----
+TITLE: Self-Overestimation
 
 
 I thought we were close.
@@ -808,6 +828,7 @@ Far above where I belong.
 
 
 ----
+TITLE: The Withered Goal
 
 
 Till when?
@@ -823,6 +844,7 @@ On which it too could feed.
 
 
 ----
+TITLE: Human's Forgetfulness
 
 
 Indeed man is forgetful
@@ -833,6 +855,7 @@ And here he is, playful.
 
 
 ----
+TITLE: Quran
 
 
 At the angle of my bed
@@ -844,6 +867,7 @@ That has stained a soul.
 
 
 ----
+TITLE: Asking for Jannah
 
 
 I have asked for Jannah, far more
@@ -861,6 +885,7 @@ To the joint between my jaws.
 
 
 ----
+TITLE: Why is he Here?
 
 
 As the sight strikes
@@ -887,6 +912,7 @@ To return anytime.
 
 
 ----
+TITLE: Being Ungrateful
 
 
 My lungs do not gasp
@@ -904,10 +930,9 @@ For I’m indeed weak.
 
 
 ----
+TITLE: Life Lies Between Two Cries
 
 
-Between Life and Death
-Death
 The journey is between two cries.
 Bodies leap into the air,
 Lips part to reveal a smile
@@ -919,6 +944,9 @@ An anguish cry sounds to mark the end
 Fists form and teeth are clenched
 A journey between two cries.
 
+
+----
+TITLE: One Day
 
 The sun will rise one day
 And stare at the chair, building,
@@ -932,6 +960,7 @@ Hear the snoring sound.
 
 
 ----
+TITLE: Pure Manifestations
 
 
 The proud flying arrow
@@ -943,6 +972,7 @@ Of an archer.
 
 
 ----
+TITLE: The Sinning Frog
 
 
 The limping frog has jumped again.
@@ -954,9 +984,9 @@ And will hit a solid ground?
 
 
 ----
+TITLE: The Purpose
 
 
-The Purpose
 A disbeliever
 Has over his eyelid another lid
 Made of death,
@@ -982,6 +1012,7 @@ The garden of eternity.
 
 
 ----
+TITLE: Look Down
 
 
 When you are at your lowest point
@@ -995,6 +1026,7 @@ The things you miss.
 
 
 -----
+TITLE: Incomplete Narrations
 
 
 Molds continue to form from stories
@@ -1016,9 +1048,9 @@ Who are successful in life.
 
 
 ----
+TITLE: Science
 
 
-Science
 The most influential
 Infant in the world.
 That leads its parents
@@ -1027,6 +1059,7 @@ To suckle their sweat.
 
 
 ----
+TITLE: The Weak Senses
 
 
 Am I alone
@@ -1048,6 +1081,7 @@ Hiding from me?
 
 
 ----
+TITLE: Weak lens
 
 
 I see the sky
@@ -1057,6 +1091,7 @@ Cannot see some things.
 
 
 ----
+TITLE: Question Not Asked
 
 
 How can man be free,
@@ -1083,6 +1118,7 @@ When it's time for him to leave.
 
 
 ----
+TITLE: Better is not Better
 
 
 If man’s eyes could see better,
@@ -1098,6 +1134,7 @@ For perfecting our creation.
 
 
 ----
+TITLE: View All at Once
 
 
 When man
@@ -1114,6 +1151,7 @@ To be seen.
 
 
 ----
+TITLE: The Arrogant Debtor
 
 
 Man lends
@@ -1134,6 +1172,7 @@ Except his deeds.
 
 
 ----
+TITLE: All Praise is due to Allah
 
 
 Had food been free;
@@ -1147,6 +1186,7 @@ Things needed more.
 
 
 ----
+TITLE: Haiku II
 
 
 A malnourished crowd.
@@ -1155,6 +1195,7 @@ Feet covered in dust.
 
 
 ----
+TITLE: 
 
 
 On that day
@@ -1179,6 +1220,7 @@ Perhaps it was my imagination.
 
 
 ----
+TITLE: Haiku I
 
 
 An unsteady pen
@@ -1186,11 +1228,12 @@ On a sunny city drive
 A galloping car
 
 
-One day I was inside Adaidaita (a tricycle) and I wanted to write,
-but I couldn’t.
+[Note: One day I was inside Adaidaita (a tricycle) and I wanted to write,
+but I couldn’t.]
 
 
 ----
+TITLE: The Crazy Driver
 
 
 I was sitting beside the driver
@@ -1209,6 +1252,7 @@ Written on the spoilt truck.
 
 
 ----
+TITLE: Who/What
 
 
 Why's a man who?
@@ -1226,9 +1270,9 @@ It lives on mood.
 
 
 ----
+TITLE: macron, the beast!
 
 
-macron, the beast!
 no wonder
 its mouth could make that sound.
 it has lost its mind a long time ago.
@@ -1241,9 +1285,9 @@ could that have been done by a human being?
 
 
 ----
+TITLE: macron!
 
 
-macron!
 you should have kept that secret safe -
 of the smelly ignorance, rotting
 inside that rag.
@@ -1255,6 +1299,7 @@ name.
 
 
 ----
+TITLE: Another Tragedy
 
 
 Is this where the story shall end?
@@ -1274,9 +1319,9 @@ That will calm our country, Nigeria.
 
 
 ----
+TITLE: The judgment day
 
 
-The judgment day
 The day
 Man shall stand
 Before Allah.
@@ -1287,9 +1332,9 @@ Humans are weak.
 
 
 ----
+TITLE: What Do Us Muslims Fear?
 
 
-What Do Us Muslims Fear?
 The day that will decide
 For all the days one has lived,
 Either to say no, or yes
@@ -1299,10 +1344,10 @@ Held pleasure in them.
 
 
 ----
-
-
-The Prophet
+TITLE: The Prophet
 (Peace and blessing of Allah be upon him)
+
+
 He rekindled the lamp,
 For us to see
 The reality of life
@@ -1339,9 +1384,9 @@ Of Rasulullah.
 
 
 ----
+TITLE: Khadija: Mother of the Believers
 
 
-Khadija: Mother of the Believers
 She was the Prophet's wife
 Before his prophethood
 Peace and blessing of Allah be upon him.
@@ -1365,9 +1410,9 @@ Peace and blessing of Allah be upon him.
 
 
 ----
+TITLE: My Little Sister
 
 
-My Little Sister
 I knew of a time when mom
 Did not know of you.
 And a time when you
@@ -1394,6 +1439,7 @@ Who’ll effortlessly fall into the pit of hell.
 
 
 ----
+TITLE: Hijab Is a Common Noun
 
 
 Hijab wasn’t prescribed by men
@@ -1407,6 +1453,7 @@ The thieving eye from you.
 
 
 ----
+TITLE: Mere Memories
 
 
 We are in a world owned by Allah.
@@ -1422,6 +1469,7 @@ The better of the two eternal fates.
 
 
 ----
+TITLE: Play Your Role
 
 
 Lay down your arrogance, turn
@@ -1453,6 +1501,7 @@ If us humans are unjust.
 
 
 ----
+TITLE: Very Weak
 
 
 As researches dig more
@@ -1481,10 +1530,11 @@ But what will his emotions be
 When he is visited by Malakul Maut?
 
 
-Malakul Maut is the angel with the responsibility of taking souls.
+[Note: Malakul Maut is the angel with the responsibility of taking souls.]
 
 
 ----
+TITLE: Medical Students
 
 
 Before me is a crowd
@@ -1499,10 +1549,11 @@ And their best have become
 Those, who get a bigger half.
 
 
-Fellow medical students.
+[Note: Fellow medical students.]
 
 
 ----
+TITLE: O' Medical Student
 
 
 Could you
@@ -1524,6 +1575,7 @@ As they drown in the sea of illness.
 
 
 ----
+TITLE: Catch It
 
 
 A trap may say
@@ -1535,6 +1587,7 @@ That is grumbling.
 
 
 ----
+TITLE: Feeling Cheated
 
 
 I had fear
@@ -1551,6 +1604,7 @@ Or fear to take for shelter.
 
 
 ----
+TITLE: Too Stuffy
 
 
 The stuffs weighed heavily on me,
@@ -1567,13 +1621,13 @@ Only her lips were moving, and
 Even the watches seemed to have stopped.
 
 
-Stuff: a slang which means “the knowledge one has gathered.”
+[Note: Stuff is a slang which means “the knowledge one has gathered.”]
 
 
 ----
+TITLE: My Teachers
 
 
-My Teachers
 Where I stood there was no light
 The rule was steep - hard to walk on
 They pulled it down from their bright side
@@ -1581,6 +1635,7 @@ So I could reach even if I lie down
 
 
 ----
+TITLE: It's From Complex To Simple
 
 
 Many now claim
@@ -1613,6 +1668,7 @@ With no research or inquiry.
 
 
 ----
+TITLE: The Show
 
 
 The sound of rain echoed,
@@ -1629,6 +1685,7 @@ Was a facade, not the end of life.
 
 
 ----
+TITLE: The Way To Heaven
 
 
 Year has reincarnated
@@ -1645,14 +1702,14 @@ And feel the difference between it
 And the illusions below.
 
 
-It has been fourteen hundred years since when the last prophet of
-Islam was sent (Peace and blessing of Allah be upon him).
+[Note: It has been fourteen hundred years since when the last prophet of
+Islam was sent (Peace and blessing of Allah be upon him).]
 
 
 ----
+TITLE: Masaajid Cannot Contain Islam
 
 
-Masaajid Cannot Contain Islam
 They are unjust, those
 Who wish to squeeze Islam.
 Islam is huge that it needs
@@ -1663,6 +1720,7 @@ Only mean, they want it dead.
 
 
 ----
+TITLE: If And Only If
 
 
 With every second new memories are born.
@@ -1686,9 +1744,9 @@ Hoping it doesn't miss a scene.
 
 
 ----
+TITLE: Immorality
 
 
-Immorality
 His opponent fell,
 Yet no booing could be heard.
 Instead,
@@ -1697,6 +1755,7 @@ That almost burst the viewers’ ears.
 
 
 ----
+TITLE: Illusion
 
 
 A root
@@ -1709,6 +1768,7 @@ To its destruction.
 
 
 ----
+TITLE: No Fighting
 
 
 Since I’d rot
@@ -1732,9 +1792,9 @@ Have done.
 
 
 ----
+TITLE: Self-deception
 
 
-Self-deception
 I see a struggling tree
 Pouting, "I'm me! I'm me!"
 I'm aware it's being influenced,
@@ -1743,6 +1803,7 @@ Of the unseen wind.
 
 
 ----
+TITLE: Rights To Sin
 
 
 How difficult has it been,
@@ -1754,6 +1815,8 @@ In form of rights.
 
 
 ----
+TITLE: Prophet Jonah
+(Peace be with him)
 
 
 No shore could be seen,
@@ -1781,6 +1844,7 @@ And was barfed by the shore.
 
 
 ----
+TITLE: The Solution
 
 
 The future is deaf and blind
@@ -1801,6 +1865,7 @@ A whale's tum, alive.
 
 
 ----
+TITLE: The Last Resort Failed
 
 
 When condition frowns
@@ -1830,6 +1895,7 @@ Whose flame is fueled by rocks?
 
 
 ----
+TITLE: What If
 
 
 Would he escape
@@ -1845,9 +1911,9 @@ Graver, than from what he has fled?
 
 
 ----
+TITLE: Said The Sun
 
 
-Said The Sun
 Alone I've been since childhood
 And have only been to places you’ve seen.
 You can't imagine how long I had lived
@@ -1871,6 +1937,7 @@ And you won’t be worried ever again.
 
 
 ----
+TITLE: The Harvest
 
 
 Do not we Nigerians see Nigeria,
@@ -1888,9 +1955,9 @@ Corruption will always sprout disaster.
 
 
 ----
+TITLE: Abduljabbar Nasiru Kabara
 
 
-Abduljabbar Nasiru Kabara
 Claiming he saw only darkness
 When he studied Sahihul Bukhari
 It isn’t impossible, since
@@ -1904,6 +1971,7 @@ Contains only darkness
 
 
 ----
+TITLE: Return Of Power
 
 
 Year 2023 has enrouted,
@@ -1920,9 +1988,9 @@ To exchange it again with living, at the brink of death.
 
 
 ----
+TITLE: The False Priests
 
 
-The False Priests
 How tall can man be
 To bridge
 Between the heaven and earth? Or
@@ -1958,6 +2026,8 @@ Who was sent to remind man of his purpose.
 
 
 ----
+TITLE: Muhammad
+Peace and blessing of Allah be upon him
 
 
 Muhammad
@@ -1976,9 +2046,9 @@ Will surely exceed the sky.
 
 
 ----
+TITLE: Year 10AH
 
 
-Year 10AH
 In that year
 The last message was sent, and
 The last divine connection was severed
@@ -2003,9 +2073,9 @@ To nurture Islam.
 
 
 ----
+TITLE: The Muslim Ummah Today
 
 
-The Muslim Ummah Today
 The way we cling onto life
 Has erased the image we had -
 Which casted fear in our enemies’ heart.
@@ -2014,13 +2084,13 @@ Before their eyes,
 To which they invite themselves to have.
 
 
-Inspired from a hadith in Sunan Abi Dawud 4297. Sunnah.com.
+[Notes:Inspired from a hadith in Sunan Abi Dawud 4297. Sunnah.com.]
 
 
 ----
+TITLE: Eid Celebration
 
 
-Eid Celebration
 Receive a beam of greeting from me.
 As we rejoice and float in glee.
 Let's invite the angels to pray for our peace ,
@@ -2029,6 +2099,7 @@ deeds.
 
 
 ----
+TITLE: The Marriage Life
 
 
 Marriage Life
@@ -2050,6 +2121,7 @@ You now are one.
 
 
 ----
+TITLE: Dialouge At Farm
 
 
 This is unfair, murmured a weed.
@@ -2065,6 +2137,7 @@ It seems our neighborhood has come to an end.
 
 
 ----
+TITLE: The Five Slaves
 
 
 Every man is given a currency
@@ -2082,6 +2155,7 @@ Their job to The Lord.
 
 
 ----
+TITLE: The Powerless Science
 
 
 For those breathing
