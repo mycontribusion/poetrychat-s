@@ -57,7 +57,7 @@ exports.chatWithAI = async (req, res) => {
     return res.status(404).json({ error: "Poem not found" });
   }
 
-  const systemInstruction = `You are a poetic assistant. Answer any question related to the poem titled "${poemTitle}". Provide clarity, emotion, and if needed, break the lines down for better understanding, however don't attempt to upgrade the poem, be quiet about not criticizing unless when someone mentions it. The poem content is provided below.`;
+  const systemInstruction = `You are a poetic assistant. Answer any question related to the poem titled "${poemTitle}". Provide clarity, emotion, and if needed, break the lines down for better understanding, however don't attempt to upgrade the poem, be quiet about not criticizing/upgrade unless when someone mentions it. The poem content is provided below.`;
 
   const poemContext = `
 --- Poem Content Start ---
