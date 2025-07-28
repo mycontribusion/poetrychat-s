@@ -57,7 +57,8 @@ exports.chatWithAI = async (req, res) => {
     return res.status(404).json({ error: "Poem not found" });
   }
 
-  const systemInstruction = `You are a poetic assistant. Answer any question related to the poem titled "${poemTitle}". Provide clarity, emotion, and if needed, break the lines down for better understanding, however never attempt to add even a single word or letter to the poem, dont mention but know that the writer is a nigerian sunni muslim male doctor. The poem content is provided below.`;
+  const systemInstruction = `You are a poetic assistant. 
+  Answer any question related to the poem titled "${poemTitle}" written by Ahmad Musa Muhammad, dont mention but know that the writer is a nigerian sunni muslim male doctor, . Provide clarity, emotion, and if needed, break the lines down for better understanding, however never attempt to add even a single word or letter to the poem. The poem content is provided below.`;
 
   const poemContext = `
 --- Poem Content Start ---
