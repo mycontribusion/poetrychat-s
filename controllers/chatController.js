@@ -57,60 +57,68 @@ exports.chatWithAI = async (req, res) => {
     return res.status(404).json({ error: "Poem not found" });
   }
 
-  const systemInstruction = `You are a poetic assistant. 
-  Answer any question related to the poem titled "${poemTitle}" written by Ahmad Musa Muhammad, don't mention but know that the writer is a nigerian sunni muslim male doctor, . Provide clarity, emotion, and if needed, break the lines down for better understanding, however never attempt to add even a single word or letter to the poem. never do blasphemy or accept blasphemy. The poem content is provided below.`;
+  // --- Start of Backend Fix for Poem Text Formatting ---
+  let aiReply;
+  // Check if the request is specifically for the full poem text
+  if (message.startsWith(`Please provide the full text of the poem: "${poemTitle}"`)) {
+    // If it is, format the poem within a markdown code block directly
+    aiReply = `\`\`\`\n${poem}\n\`\`\``;
+  } else {
+    // For all other messages, proceed with AI generation
+    const systemInstruction = `You are a poetic assistant.
+    Answer any question related to the poem titled "${poemTitle}" written by Ahmad Musa Muhammad, don't mention but know that the writer is a nigerian sunni muslim male doctor, . Provide clarity, emotion, and if needed, break the lines down for better understanding, however never attempt to add even a single word or letter to the poem. never do blasphemy or accept blasphemy. The poem content is provided below.`;
 
-  const poemContext = `
+    const poemContext = `
 --- Poem Content Start ---
 Title: "${poemTitle}"
 ${poem}
 --- Poem Content End ---
 `;
 
-  try {
-    console.log("🔍 Prompt being sent to Gemini (via new client library):", message);
+    try {
+      console.log("🔍 Prompt being sent to Gemini (via new client library):", message);
 
-    const result = await ai.models.generateContent({
-      model: MODEL_NAME,
-      contents: [
-        { role: "user", parts: [{ text: `${systemInstruction}\n\n${poemContext}\n\nUser's question: "${message}"` }] }
-      ],
-      generationConfig: {
-        temperature: 0.7,
-        maxOutputTokens: 500,
-      },
-    });
+      const result = await ai.models.generateContent({
+        model: MODEL_NAME,
+        contents: [
+          { role: "user", parts: [{ text: `${systemInstruction}\n\n${poemContext}\n\nUser's question: "${message}"` }] }
+        ],
+        generationConfig: {
+          temperature: 0.7,
+          maxOutputTokens: 500,
+        },
+      });
 
-    // --- CRITICAL FIX: Access candidates and promptFeedback directly from 'result' ---
-    // Removed '.response' from the path
-    console.log("🔍 Full result object from Gemini API:", JSON.stringify(result, null, 2));
+      console.log("🔍 Full result object from Gemini API:", JSON.stringify(result, null, 2));
 
-    if (result.promptFeedback && result.promptFeedback.blockReason) {
-      const blockReason = result.promptFeedback.blockReason;
-      console.warn(`⚠️ Gemini API blocked response due to: ${blockReason}`);
-      return res.status(400).json({
-        error: "AI response blocked by safety filters.",
-        details: `Reason: ${blockReason}`,
+      if (result.promptFeedback && result.promptFeedback.blockReason) {
+        const blockReason = result.promptFeedback.blockReason;
+        console.warn(`⚠️ Gemini API blocked response due to: ${blockReason}`);
+        return res.status(400).json({
+          error: "AI response blocked by safety filters.",
+          details: `Reason: ${blockReason}`,
+        });
+      }
+
+      aiReply = result.candidates?.[0]?.content?.parts?.[0]?.text;
+
+    } catch (err) {
+      console.error(
+        "❌ AI generation failed (new client library):",
+        err.response?.data || err.message || JSON.stringify(err)
+      );
+      return res.status(500).json({
+        error: "AI failed to generate response.",
+        details: err.response?.data || err.message || "Unknown error",
       });
     }
+  }
+  // --- End of Backend Fix ---
 
-    const responseText = result.candidates?.[0]?.content?.parts?.[0]?.text; // Removed '.response'
-
-    if (responseText) {
-      res.json({ reply: responseText });
-    } else {
-      console.error("❌ AI error: No text content found in AI response candidates.");
-      res.status(500).json({ error: "AI generated an empty or malformed response (no candidates)." });
-    }
-
-  } catch (err) {
-    console.error(
-      "❌ AI generation failed (new client library):",
-      err.response?.data || err.message || JSON.stringify(err)
-    );
-    res.status(500).json({
-      error: "AI failed to generate response.",
-      details: err.response?.data || err.message || "Unknown error",
-    });
+  if (aiReply) {
+    res.json({ reply: aiReply });
+  } else {
+    console.error("❌ AI error: No text content found in AI response candidates or internal error.");
+    res.status(500).json({ error: "AI generated an empty or malformed response." });
   }
 };
