@@ -78,11 +78,25 @@ ${poem}
     try {
       console.log("🔍 Prompt being sent to Gemini (via new client library):", message);
 
+      const chatContents = [
+        { role: "user", parts: [{ text: `${systemInstruction}\n\n${poemContext}` }] },
+        { role: "model", parts: [{ text: "Understood. I have read the poem and am ready to answer your questions." }] }
+      ];
+
+      if (req.body.history && Array.isArray(req.body.history)) {
+        req.body.history.forEach(msg => {
+          chatContents.push({
+            role: msg.role === 'model' || msg.role === 'ai' ? 'model' : 'user',
+            parts: [{ text: msg.text || '' }]
+          });
+        });
+      }
+
+      chatContents.push({ role: "user", parts: [{ text: message }] });
+
       const result = await ai.models.generateContent({
         model: MODEL_NAME,
-        contents: [
-          { role: "user", parts: [{ text: `${systemInstruction}\n\n${poemContext}\n\nUser's question: "${message}"` }] }
-        ],
+        contents: chatContents,
         generationConfig: {
           temperature: 0.7,
           maxOutputTokens: 500,
