@@ -38,7 +38,10 @@ function getPoemByTitle(title) {
 }
 
 exports.getPoemTitles = (req, res) => {
-  res.json(Object.keys(poems));
+  res.json(Object.keys(poems).map(title => ({
+    title,
+    body: poems[title]
+  })));
 };
 
 exports.chatWithAI = async (req, res) => {
