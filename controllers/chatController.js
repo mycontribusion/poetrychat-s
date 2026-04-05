@@ -18,7 +18,9 @@ function extractPoems(text) {
   let match;
   while ((match = regex.exec(text)) !== null) {
     const title = match[1].trim();
-    const body = match[2].trim();
+    let body = match[2].trim();
+    // Strip out notes in the format [Note: ...] or [Notes: ...]
+    body = body.replace(/\[Note[s]?:\s*[\s\S]*?\]/g, "").trim();
     poems[title] = body;
   }
   return poems;
