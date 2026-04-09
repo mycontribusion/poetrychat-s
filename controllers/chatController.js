@@ -126,6 +126,30 @@ ${poem}
         "❌ AI generation failed (new client library):",
         err.response?.data || err.message || JSON.stringify(err)
       );
+
+      // Check for quota/rate limit errors
+      const errorMessage = err.message || "";
+      if (errorMessage.includes("429") || errorMessage.includes("Quota exceeded") || errorMessage.includes("RESOURCE_EXHAUSTED")) {
+        let resetTimeMessage = "soon";
+        const now = new Date();
+
+        if (errorMessage.includes("per day")) {
+          // GEMINI RPD resets at midnight UTC
+          const tomorrow = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1));
+          resetTimeMessage = tomorrow.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) + " UTC";
+        } else {
+          // GEMINI RPM resets at the start of the next minute
+          const nextMinute = new Date(now.getFullYear(), now.getMonth(), now.getDate(), now.getHours(), now.getMinutes() + 1, 0);
+          resetTimeMessage = nextMinute.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        }
+
+        return res.status(429).json({
+          error: "Quota exceeded",
+          details: `Quota resets at ${resetTimeMessage}`,
+          resetTime: resetTimeMessage
+        });
+      }
+
       return res.status(500).json({
         error: "AI failed to generate response.",
         details: err.response?.data || err.message || "Unknown error",
