@@ -127,6 +127,7 @@ ${poem}
         err.response?.data || err.message || JSON.stringify(err)
       );
 
+      const errorMessage = err.message || "";
       // Check for quota/rate limit errors
       if (errorMessage.includes("429") || errorMessage.includes("Quota exceeded") || errorMessage.includes("RESOURCE_EXHAUSTED")) {
         let resetTimeMessage = "soon";
