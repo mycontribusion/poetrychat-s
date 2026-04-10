@@ -128,7 +128,6 @@ ${poem}
       );
 
       // Check for quota/rate limit errors
-      const errorMessage = err.message || "";
       if (errorMessage.includes("429") || errorMessage.includes("Quota exceeded") || errorMessage.includes("RESOURCE_EXHAUSTED")) {
         let resetTimeMessage = "soon";
         const now = new Date();
@@ -147,6 +146,14 @@ ${poem}
           error: "Quota exceeded",
           details: `Quota resets at ${resetTimeMessage}`,
           resetTime: resetTimeMessage
+        });
+      }
+
+      // Check for high demand errors
+      if (errorMessage.includes("503") || errorMessage.includes("Service Unavailable") || errorMessage.includes("high demand") || errorMessage.includes("UNAVAILABLE")) {
+        return res.status(503).json({
+          error: "Model under high demand",
+          details: "The AI model is currently experiencing high demand. Please wait a few moments and try again."
         });
       }
 
